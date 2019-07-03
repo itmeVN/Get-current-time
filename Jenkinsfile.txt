@@ -1,6 +1,11 @@
 pipeline {
     agent any
     stages {
+        stage('test'){
+            steps {
+                sh 'py --version'
+            }
+        }
         stage('build') {
             steps {
                 sh 'py GetCurrentDate.py'
