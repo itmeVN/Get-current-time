@@ -1,7 +1,7 @@
 from datetime import date
 def GetCurrentDate():
     today = date.today()
-    print('Hom nay la:', today)
+    print('It is:', today)
 def main():
     GetCurrentDate()
 main()
